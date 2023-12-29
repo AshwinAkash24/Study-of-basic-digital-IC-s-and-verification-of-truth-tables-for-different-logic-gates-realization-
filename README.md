@@ -56,13 +56,16 @@ The 'Exclusive-NOR' gate circuit does the opposite to the EX-OR gate. It will gi
 Y= A⊕B
 
 # Procedure:
-```
 Connect the supply (+5V) to the circuit
+<br>
 Switch ON the main switch
+<br>
 Press the switches for inputs “A” and “B”. The switch is ON state when 1 is pressed. The switch is OFF state when 0 is pressed.
+<br>
 If the output is 1, then the bulb glows.
+<br>
 Check all the gates following the same procedure.
-```
+
 # Program:
 ```
 module exll (a,b,y1, y2, y3 y4 y5, y6, y7);
